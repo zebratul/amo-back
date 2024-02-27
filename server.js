@@ -7,7 +7,7 @@ const sendEmail = require('./helpers/mailer');
 const createContact = require('./helpers/amoCRM');
 
 // Middleware
-app.use(cors({ origin: 'https://amo-front.vercel.app/' }));
+app.use(cors({ origin: 'https://amo-front.vercel.app' }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
